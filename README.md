@@ -62,3 +62,6 @@ Use the following command to merge the point clouds:
 
 - Successfully generated and merged 3D point clouds for further analysis and visualization.
 - Verified alignment accuracy using CloudCompare's GUI and eliminated any outliers for a cleaner model.
+
+Project Report in Overleaf:
+https://www.overleaf.com/project/6718e0efba610b115b1b4141
