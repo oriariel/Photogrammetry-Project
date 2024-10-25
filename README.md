@@ -18,7 +18,7 @@ This project aims to create a detailed and accurate 3D point cloud model using v
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/Photogrammetry-Project.git
+   git clone https://github.com/oriariel/Photogrammetry-Project.git
    ```
 2. Install the required Python packages:
    ```bash
@@ -64,4 +64,4 @@ Use the following command to merge the point clouds:
 - Verified alignment accuracy using CloudCompare's GUI and eliminated any outliers for a cleaner model.
 
 Project Report in Overleaf:
-https://www.overleaf.com/project/6718e0efba610b115b1b4141
+https://www.overleaf.com/read/dqjdqzsbnmbf#246981
