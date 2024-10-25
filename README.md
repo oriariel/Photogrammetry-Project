@@ -64,4 +64,4 @@ Use the following command to merge the point clouds:
 - Verified alignment accuracy using CloudCompare's GUI and eliminated any outliers for a cleaner model.
 
 Project Report in Overleaf:
-https://www.overleaf.com/project/6718e0efba610b115b1b4141
+https://www.overleaf.com/read/dqjdqzsbnmbf#246981
