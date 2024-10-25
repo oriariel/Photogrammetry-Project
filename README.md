@@ -18,7 +18,7 @@ This project aims to create a detailed and accurate 3D point cloud model using v
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/Photogrammetry-Project.git
+   git clone https://github.com/oriariel/Photogrammetry-Project.git
    ```
 2. Install the required Python packages:
    ```bash
