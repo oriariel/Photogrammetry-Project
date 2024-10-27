@@ -59,12 +59,12 @@ Use the following command to merge the point clouds:
    This merges the clouds generated from each video set into a unified cloud, which is saved as `merged_cloud.ply`.
   or run the `merged_clouds.py` using the following command in your terminal:
    ```bash
-   python merge_clouds.py <p1.ply> <p2.ply> <output.ply>
+   python merge_clouds.py <point_cloud1.ply> <point_cloud2.ply> <merged_clouds.ply>
    ```
    Parameters
-   <p1.ply>: Path to the first input point cloud file.
-   <p2.ply>: Path to the second input point cloud file.
-   <output.ply>: Path where the merged point cloud will be saved.
+   <point_cloud1.ply>: Path to the first input point cloud file.
+   <point_cloud2.ply>: Path to the second input point cloud file.
+   <merged_clouds.ply>: Path where the merged point cloud will be saved.
 
 ## Results
 
