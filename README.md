@@ -57,6 +57,14 @@ Use the following command to merge the point clouds:
    CloudCompare -O p1.ply -O p2.ply -ICP -MERGE_CLOUDS -C_EXPORT_FMT PLY -PLY_EXPORT_FMT ASCII -SAVE_CLOUDS FILE merged_cloud.ply
    ```
    This merges the clouds generated from each video set into a unified cloud, which is saved as `merged_cloud.ply`.
+  or run the `merged_clouds.py` using the following command in your terminal:
+   ```bash
+   python merge_clouds.py <p1.ply> <p2.ply> <output.ply>
+   ```
+   Parameters
+   <p1.ply>: Path to the first input point cloud file.
+   <p2.ply>: Path to the second input point cloud file.
+   <output.ply>: Path where the merged point cloud will be saved.
 
 ## Results
 
