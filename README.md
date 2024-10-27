@@ -44,10 +44,27 @@ Example:
    ```
 
 ### Step 2: Generate Point Clouds with COLMAP
-
-1. Import the extracted frames into COLMAP.
-2. Run COLMAP’s pipeline for Structure-from-Motion (SfM) and Multi-View Stereo (MVS) to create point clouds from images.
-
+Step 1: Create virtual environment:
+```bash
+python -m venv colmap-env
+```
+Step 2: Activate it:
+•	On Windows: 
+```bash 
+colmap-env\Scripts\activate
+```
+•	On macOS/Linux: 
+```bash
+source colmap-env/bin/activate
+```
+Step 3: Install Required Packages:
+```bash
+pip install numpy opencv-python
+```
+Step 4: Run the `colmap_reconstruction.py` using the following command in your terminal:
+```bash
+python colmap_reconstruction.py <input path project> <input image path>
+```
 Save the point clouds as `.ply` files (e.g., `p1.ply`, `p2.ply`).
 
 ### Step 3: Merge Point Clouds using CloudCompare CLI
