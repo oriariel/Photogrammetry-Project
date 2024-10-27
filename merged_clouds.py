@@ -4,7 +4,7 @@ import sys
 
 # Define the paths to the input files from command line arguments
 if len(sys.argv) != 4:
-    print("Usage: python merge_clouds.py <p1.ply> <p2.ply> <output.ply>")
+    print("Usage: python merge_clouds.py <point_cloud1.ply> <point_cloud2.ply> <merged_clouds.ply>")
     sys.exit(1)
 
 p1_path = sys.argv[1]
